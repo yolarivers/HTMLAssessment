@@ -6,10 +6,19 @@
 </head>
 <body>
     <h1>TEXT</h1>
-    <p><b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt ex at, venenatis nisl.</p>
-    <p><em><b>Integer</b> auctor est ac fringilla euismod. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo.</em></p>
-    <p><b>Vestibulum</b> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ullamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasse platea dictumst.</p>
-    
+    <p>
+        <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Sed blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt ex at, venenatis nisl.
+    </p>
+    <blockquote>
+        <p>
+            <em>
+                <strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo.
+            </em>
+        </p>
+    </blockquote>
+    <p>
+        Vestibulum elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ullamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasse platea dictumst.
+    </p>
     <h2>TABLE</h2>
     <table>
         <thead>
@@ -53,5 +62,74 @@
             </tr>
         </tbody>
     </table>
+    <h1>LIST</h1>
+    <ul>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/200px-Denver_Broncos_logo.svg.png" alt="Denver Broncos Logo" width="50">
+            <a href="https://en.wikipedia.org/wiki/Denver_Broncos">Denver Broncos</a>
+            <ul>
+                <li>Coach: Gary Kubiak</li>
+                <li>QB
+                    <ol>
+                        <li>Brock Osweiler</li>
+                        <li>Trevor Siemian</li>
+                        <li>Peyton Manning (injured)</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg" alt="Chicago Bears Logo" width="50">
+            <a href="https://en.wikipedia.org/wiki/Chicago_Bears">Chicago Bears</a>
+            <ul>
+                <li>Coach: Gary Kubiak</li>
+                <li>QB
+                    <ol>
+                        <li>Jay Cutler</li>
+                        <li>David Foles</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h1>FORM</h1>
+    <form>
+        <label for="first">First:</label>
+        <input type="text" id="first" name="first">
+        <label for="last">Last:</label>
+        <input type="text" id="last" name="last">
+        <br>
+        <br>
+        <label for="sport">Favorite Sport:</label>
+        <select id="sport" name="sport">
+            <option value="soccer">Soccer</option>
+            <option value="basketball">Basketball</option>
+            <option value="baseball">Baseball</option>
+            <option value="football">Football</option>
+        </select>
+        <br>
+        <br>
+        <label>I have:</label>
+        <input type="checkbox" id="attended" name="experience" value="attended">
+        <label for="attended">Attended</label>
+        <input type="checkbox" id="played" name="experience" value="played">
+        <label for="played">Played</label>
+        <input type="checkbox" id="coached" name="experience" value="coached">
+        <label for="coached">Coached</label>
+        <input type="checkbox" id="bet" name="experience" value="bet">
+        <label for="bet">Bet on this sport</label>
+        <br>
+        <br>
+        <label>For this sport I prefer the:</label>
+        <input type="radio" id="amateur" name="preference" value="amateur">
+        <label for="amateur">Amateur</label>
+        <input type="radio" id="college" name="preference" value="college">
+        <label for="college">College</label>
+        <input type="radio" id="professional" name="preference" value="professional">
+        <label for="professional">Professional</label>
+        <br>
+        <br>
+        <button type="submit">Submit Query</button>
+    </form>
 </body>
 </html>
