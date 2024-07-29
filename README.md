@@ -32,9 +32,6 @@ Blockquotes have a dark background and light font color.
 ### Checkbox List
 Checkbox lists do not have bullets.
 
-### Primary Quarterback Bold
-The primary quarterback in each team's list is displayed in bold.
-
 ## Technologies Used
 
 - HTML5
